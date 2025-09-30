@@ -80,7 +80,7 @@ export default function PatientDashboard() {
 							Welcome back, {user.name}!
 						</h1>
 						<p className="text-blue-100/70 mt-2 text-lg">
-							Here's your health overview and upcoming appointments.
+							Here&apos;s your health overview and upcoming appointments.
 						</p>
 					</div>
 					<div className="hidden md:block">

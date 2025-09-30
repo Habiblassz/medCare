@@ -92,7 +92,7 @@ export default function DoctorDashboard() {
 						<p className="text-blue-100/70 mt-2 text-lg">
 							Welcome back,{" "}
 							<span className="text-white font-semibold">Dr. {user.name}</span>.
-							Here's your schedule and patient overview.
+							Here&apos;s your schedule and patient overview.
 						</p>
 					</div>
 					<div className="hidden md:block">
@@ -213,7 +213,9 @@ export default function DoctorDashboard() {
 				</div>
 
 				<div className="md:col-span-2 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-6">
-					<h4 className="text-white font-semibold mb-4">Today's Schedule</h4>
+					<h4 className="text-white font-semibold mb-4">
+						Today&apos;s Schedule
+					</h4>
 					<div className="space-y-4">
 						<div className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/10">
 							<div>
