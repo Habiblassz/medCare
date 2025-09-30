@@ -127,9 +127,9 @@ export default function LoginPage() {
 								)}
 							</button>
 						</div>
-						{/* <p className="text-blue-200/60 text-xs pt-2">
-							Demo password: <strong className="text-blue-200">password</strong>
-						</p> */}
+						<p className="text-blue-200/60 text-xs pt-2">
+							Demo password: <strong className="text-blue-200">passkey</strong>
+						</p>
 					</div>
 
 					{/* Submit Button */}
@@ -164,7 +164,7 @@ export default function LoginPage() {
 					</div>
 
 					{/* Demo Accounts */}
-					{/* <div className="pt-6 border-t border-white/10">
+					<div className="pt-6 border-t border-white/10">
 						<p className="text-center text-blue-200/70 text-sm font-medium mb-3">
 							Demo Accounts
 						</p>
@@ -182,7 +182,7 @@ export default function LoginPage() {
 								<p className="text-blue-200/60">admin@hospital.com</p>
 							</div>
 						</div>
-					</div> */}
+					</div>
 				</form>
 
 				{/* Footer */}
